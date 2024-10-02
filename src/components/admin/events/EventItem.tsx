@@ -1,4 +1,4 @@
-import { Event } from '@/types/Event'
+import { Event } from '@/types/EventType'
 import { ItemButton } from '@/components/admin/ItemButton'
 import { FaLink, FaRegEdit, FaRegTrashAlt } from 'react-icons/fa'
 import * as api from '@/api/adminEvent'

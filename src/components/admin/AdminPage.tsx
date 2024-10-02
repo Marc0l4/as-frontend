@@ -1,7 +1,7 @@
 'use client'
 
 import * as apiEvent from '@/api/adminEvent'
-import { Event } from '@/types/Event'
+import { Event } from '@/types/EventType'
 import { useEffect, useState } from 'react'
 import {
   EventItem,

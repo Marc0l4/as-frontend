@@ -1,6 +1,6 @@
 import { getCookie } from 'cookies-next'
 import { req } from './axios'
-import { Event } from '../types/Event'
+import { Event } from '@/types/EventType'
 
 const login = async (password: string) => {
   // login

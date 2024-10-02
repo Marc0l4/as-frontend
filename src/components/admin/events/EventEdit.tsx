@@ -1,6 +1,6 @@
 'use client'
 
-import { Event } from '@/types/Event'
+import { Event } from '@/types/EventType'
 import { useState } from 'react'
 import { EventTabInfo } from './EventTabInfo'
 import { EventTabGroups } from '../groups/EventTabGroups'

@@ -1,4 +1,4 @@
-import { Event } from '@/types/Event'
+import { Event } from '@/types/EventType'
 import { ErrorItem, getErrorFromZod } from '@/utils/getErrorFromZod'
 import { useEffect, useState } from 'react'
 import { InputField } from '../InputField'
