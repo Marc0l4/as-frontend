@@ -1,10 +1,10 @@
-import { event } from '@/types/event'
+import { Event } from '@/types/Event'
 import { req } from './axios'
 import { SearchResult } from '@/types/SearchResult'
 
-const getEvent = async (id: number): Promise<event | false> => {
+const getEvent = async (id: number): Promise<Event | false> => {
   const json = await req.get(`events/${id}`)
-  return (json.data.events as event) ?? false
+  return (json.data.events as Event) ?? false
 }
 
 const searchCPF = async (
