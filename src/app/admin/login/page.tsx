@@ -3,9 +3,9 @@
 import { Button } from '@/components/admin/Button'
 import { InputField } from '@/components/admin/InputField'
 import { useState } from 'react'
-import * as api from '@/api/admin'
+import * as api from '@/api/adminEvent'
 import { setCookie } from 'cookies-next'
-import { redirect, useRouter } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 
 const Page = () => {
   const router = useRouter()
